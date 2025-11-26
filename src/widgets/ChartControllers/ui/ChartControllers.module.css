@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+.leftGroup,
+.rightGroup {
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+}
+
+.controlLabel {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .leftGroup,
+    .rightGroup {
+        gap: 16px;
+    }
+}

@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.chartWrapper {
+    width: 100%;
+    user-select: none;
+}
+
+.resetButton {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.15s;
+}
+
+.resetButton:hover {
+    background-color: var(--bg-primary);
+}
