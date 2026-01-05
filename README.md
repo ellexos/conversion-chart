@@ -1,7 +1,7 @@
 # A/B Test Chart
 
 Interactive line chart for visualizing A/B test conversion rates.
-GitHub Pages[https://ellexos.github.io/conversion-chart/]
+[GitHub Pages](https://ellexos.github.io/conversion-chart/)
 
 ## Run Locally
 
